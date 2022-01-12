@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "lib": ["ES2020"],
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "baseUrl": "./",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "importHelpers": true,
+        "removeComments": true,
+        "paths": {
+            "src": ["src"]
+        },
+        "sourceMap": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "types": ["chai", "mocha", "node"],
+        "typeRoots": ["node_modules/@types"]
+    },
+    "include": ["./**/*.ts"],
+    "exclude": ["./client", "node_modules"]
+}

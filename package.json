@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-dev-challenge",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "lerna run build",
+    "start": "lerna run start --parallel",
+    "format": "lerna run format",
+    "lint": "lerna run lint --parallel",
+    "lint:fix": "lerna run lint --parallel -- --fix",
+    "test": "lerna run test",
+    "clear": "lerna run clear --parallel && rm -rf node_modules"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.5.0",
+    "lerna": "^4.0.0",
+    "prettier": "2.5.1"
+  }
+}

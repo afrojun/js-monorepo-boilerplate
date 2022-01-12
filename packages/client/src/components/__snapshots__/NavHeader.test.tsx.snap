@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavHeader matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-row justify-between px-1 py-1 bg-slate-700 text-white"
+  >
+    JS Monorepo Boilerplate
+  </div>
+</DocumentFragment>
+`;
